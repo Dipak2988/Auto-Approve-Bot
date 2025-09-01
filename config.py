@@ -1,12 +1,12 @@
 import os
 from typing import List
 
-API_ID = os.environ.get("API_ID", "27634013")
-API_HASH = os.environ.get("API_HASH", "7b2dbd9636bfe069254beb85649099df")
+API_ID = os.environ.get("API_ID", "29214489")
+API_HASH = os.environ.get("API_HASH", "eb5bd88f71851a9c069eeb42ec0958aa")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-ADMIN = int(os.environ.get("ADMIN", "6701240300"))
+ADMIN = int(os.environ.get("ADMIN", "1362402982"))
 
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002806658606"))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001996421531"))
 NEW_REQ_MODE = os.environ.get("NEW_REQ_MODE", "True").lower() == "true"  # Set "True" For accept new requests
 
 DB_URI = os.environ.get("DB_URI", "mongodb+srv://dipaksinghasarkarss:Dipakss123@cluster0.7xzqr9t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
